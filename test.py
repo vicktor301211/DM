@@ -11,7 +11,7 @@ def key_handler(event):
     canvas.move(player_1_id, 10, 0)
 #Область создания окна
 window = Tk()
-window.title("Игра 'Догони меня если ссможешь'")
+window.title("Игра 'Догони меня если сможешь'")
 canvas = Canvas(window, width=w, height=h, bg = 'white')
 canvas.pack()
 #Область создания объектов
